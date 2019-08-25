@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MasterMindColourGeneratorTest$GenerateAnswerColoursTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-25T04:54:22" hostname="C02Y30B7JG5J" time="0.002">
+  <properties/>
+  <testcase name="shouldReturnListOfValidColours" classname="MasterMindColourGeneratorTest$GenerateAnswerColoursTest" time="0.002"/>
+  <testcase name="shouldReturnListOf4Colours" classname="MasterMindColourGeneratorTest$GenerateAnswerColoursTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

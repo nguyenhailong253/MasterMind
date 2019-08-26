@@ -98,6 +98,7 @@ public class MasterMindApplication {
         MasterMindApplication game = new MasterMindApplication(engine, converter, validator);
         ArrayList<Colour> answers = game.generateRandomColours(generator, Constants.ANSWER_LENGTH);
 
+        // TODO: 2019-08-26 Print answers for testing 
         for (Colour ans: answers) {
             System.out.println(ans.toString());
         }

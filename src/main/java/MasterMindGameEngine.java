@@ -10,7 +10,7 @@ public class MasterMindGameEngine {
     }
 
     public ArrayList<String> getHintColours() {
-        return this.hintColours;
+        return hintColours;
     }
 
     private String getHintColour(Colour guessColour, Colour answerColour, ArrayList<Colour> answerList) {
@@ -53,7 +53,6 @@ public class MasterMindGameEngine {
     }
 
     public boolean checkGameRule(ArrayList<Colour> input, ArrayList<Colour> answer) {
-        // TODO: 2019-08-25 Do we use this.hintColours in here? 
         hintColours = processListOfHintColours(input, answer);
         hintColours = shuffleListOfHintColours(hintColours);
         boolean playerWins = isGameWon(hintColours);
